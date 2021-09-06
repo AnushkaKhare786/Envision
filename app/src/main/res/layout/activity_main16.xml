@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:orientation="vertical"
+        android:id="@+id/transitionContainer"
+        android:scrollbars="vertical"
+        tools:context=".MainActivity16">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E4E4"
+        android:gravity="center"
+        android:text="SCSE FACULTIES--"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="299dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#04146C"
+        android:text="     Dr. Sandip Mal \n"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#161823"
+        android:text=" \n SUBJECT: Software Project \n
+                     Management\n
+COURSE CODE : CSE4016 \n
+CREDITS : 3 \n
+COURSE TYPE: Lecture and Tutorial \n
+                                Hours Only (LT) \n
+ SLOTS :- \n
+            A11 + A12  \n
+            A21 + A22  \n
+            F11 + F12  \n \n\n
+          CLICK HERE TO GO BACK!!!!"
+        android:textColor="@android:color/background_light"
+        android:visibility="gone"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" GO BACK"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="299dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#04146C"
+        android:text="     Dr. Baseera A \n"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#161823"
+        android:text=" \n SUBJECT: Database Management \n
+                                System \n
+COURSE CODE : CSE3001 \n
+CREDITS : 4 \n
+COURSE TYPE: Lecture, Tutorial and \n
+                       Practical Hours Only (LTP) \n
+ SLOTS :- \n
+            B11 + B12 + B13  \n
+            B21 + B22 + B23 \n \n\n
+          CLICK HERE TO GO BACK!!!!"
+        android:visibility="gone"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="299dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#04146C"
+        android:text="     Dr. Suganya E \n"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="406dp"
+        android:layout_height="531dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:background="#161823"
+        android:text=" SUBJECT: Database Management \n
+                                System \n
+COURSE CODE : CSE3001 \n
+CREDITS : 4 \n
+COURSE TYPE: Lecture, Tutorial and \n
+                       Practical Hours Only (LTP) \n
+ SLOTS :- \n
+            B11 + B12 + B13  \n
+            A21 + A22 + A23 \n
+---------------------------------------------------------------\n
+SUBJECT : Operating System \n
+COURSE CODE : CSE3003 \n
+CREDITS : 4 \n
+COURSE TYPE: Lecture, Tutorial and \n
+                       Practical Hours Only (LTP) \n
+ SLOTS :- \n
+            D11 + D12 + D13  \n -----------------------------------------------------------------\n\n
+          CLICK HERE TO GO BACK!!!!"
+
+        android:visibility="gone"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="299dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#04146C"
+        android:text="     Ms. Priyanka Singh \n"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#161823"
+        android:text=" \n SUBJECT: Software Project \n
+                     Management\n
+COURSE CODE : CSE4016 \n
+CREDITS : 3 \n
+COURSE TYPE: Lecture and Tutorial \n
+                                Hours Only (LT) \n
+ SLOTS :- \n
+            B21 + B22  \n
+            C21 + C22  \n \n\n
+          CLICK HERE TO GO BACK!!!!"
+
+        android:visibility="gone"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="299dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="#04146C"
+        android:text="     Dr. Hariharasitaraman S \n"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:background="#161823"
+        android:text=" SUBJECT: Database Management \n
+                                System \n
+COURSE CODE : CSE3001 \n
+CREDITS : 4 \n
+COURSE TYPE: Lecture, Tutorial and \n
+                       Practical Hours Only (LTP) \n
+ SLOTS :- \n
+            B11 + B12 + B13  \n
+            C21 + C22 + C23 \n
+---------------------------------------------------------------\n
+SUBJECT : Operating System \n
+COURSE CODE : CSE3003 \n
+CREDITS : 4 \n
+COURSE TYPE: Lecture, Tutorial and \n
+                       Practical Hours Only (LTP) \n
+ SLOTS :- \n
+            F21 + F22 + F23  \n-----------------------------------------------------------------\n
+          CLICK HERE TO GO BACK!!!!"
+        android:visibility="gone"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#04146C"
+        android:text="     Dr. Pushpinder Singh\n
+    Dr. Kanchan K \n
+    Dr. Shri ram R \n
+    Dr. S Sountharrajan \n
+    Dr. Shishir Kumar S \n
+    Dr. Praveen Lalwani \n
+    Dr. Venkatachalam K \n
+    Dr. Anand Motwani \n
+    Dr. Manas Kumar Mishra \n
+    Dr. Pon Harshvardhanan \n
+    Dr. Ashwin M \n
+    Dr. Nilamadhab Mishra \n
+    Dr. Chandan Kumar Behera \n
+    Dr. Sampath Kumar \n
+    Dr. Ashish Kumar \n
+    Dr. Sathish Kumar \n
+    Dr. Venkat Prasad \n
+    Dr. Nageswar Guptha \n
+    Dr. Azath H \n
+    Dr. Rakesh R \n
+    Dr. Virendra Kushwah \n
+    Dr. Shakkeera l \n
+    Dr. Sharmasth Vali \n
+    Dr. Pandi Murugan \n
+    Dr. Saurabh Shukla \n
+    Dr. Subhash Patel \n
+    Dr. Muneeswaran \n
+    Dr. Paras Jain \n
+    Dr. Raja Soundaran \n
+    Dr. Bharath Bhushan \n
+    Dr. Gaurav Pareek \n
+    Dr. Nitish Andola \n
+    Dr. Bishwajit Roy \n"
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+
+</LinearLayout>
+</ScrollView>

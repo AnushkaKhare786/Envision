@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFE"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICK TO VIEW TEACHERS --"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="117dp"
+            android:layout_height="76dp"
+            android:background="#D54374"
+            android:text="scse"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="560dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="117dp"
+            android:layout_height="76dp"
+            android:background="#F17507"
+            android:text="sas"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="576dp" />
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="117dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="10dp"
+            android:background="#F3BD1D"
+            android:text="sasl"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="576dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="117dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="8dp"
+            android:background="#537E21"
+            android:text="seee"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="117dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:background="#9E6756"
+            android:text="smec"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="117dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="8dp"
+            android:background="#B1466A"
+            android:text="others"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

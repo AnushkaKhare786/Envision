@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity16">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SMEC  TEACHERS --"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:background="#E8E4E4"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="576dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#04146C"
+        android:scrollbars="vertical"
+        android:text=" Dr. Pritesh Vishwas Rao \n
+Dr. Francis Xavier \n
+Dr. Mohammad Alam \n
+Dr. Ankush Tharkar \n
+Dr. Prashant gk \n
+Dr. Rohit Sharma \n
+Dr. Pushpdant Jain \n
+Dr. Balaguru s \n
+ "
+        android:textColor="@android:color/background_light"
+        android:textSize="22dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+</LinearLayout>

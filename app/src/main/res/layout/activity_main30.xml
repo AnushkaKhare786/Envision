@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:orientation="vertical"
+        android:id="@+id/linear"
+        android:scrollbars="vertical"
+        tools:context=".MainActivity30">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="CSE CORE SUBJECTS" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text=" CSE1001 \n
+CSE2001 \n
+CSE2002 \n
+CSE2003 \n
+CSE2004 \n
+CSE3001 \n
+CSE3002 \n
+CSE3003 \n
+CSE3004 \n
+CSE3005 \n
+CSE3006 \n CSE3007  \n
+CSE3008 \n
+CSE3010  \n
+CSE3011 \n
+CSE3012 \n
+CSE4003 \n
+CSE4005 \n
+CSE4012 \n
+CSE4016 \n
+CSE4017 \n
+CSE4019 \n
+CSE4001 \n
+\n
+DSN2096 \n
+DSN2097 \n
+DSN2098 \n
+DSN2099 \n
+DSN3099 \n
+\n
+ECE2002 \n
+ECE3004 \n
+ECE3006 \n
+ECE4010 \n
+EEE1001 \n
+\n
+NAS1001 \n
+NAS1002 \n
+NAS2001 \n
+NAS2002 \n
+\n
+CHY1001 \n
+CHY1002 \n
+\n
+ENG1001 \n
+ENG2001 \n
+\n
+HUM1001 \n
+HUM1008 \n
+\n
+MAT1001 \n
+MAT2001 \n
+MAT2002 \n
+MAT2003 \n
+MAT2004 \n
+MAT3002 \n
+MAT3003 \n
+\n
+PHY1001 \n
+PHY2002 \n
+PHY2003 \n
+\n
+PLA1001 \n
+PLA1003 \n
+\n
+STS1001 \n
+STS2001 \n
+\n
+EEE1001 \n
+MEE1007 \n
+EXC1001 \n
+"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Introduction to Problem Solving and Programming \n
+Object Oriented Programming With C++ \n
+Data Structures and Algorithms \n
+Computer Architecture and Organization \n
+Theory Of Computation And Compiler Design \n
+Database Management Systems \n
+Programming in Java\n
+Operating System \n
+Design Analysis Of Algorithm \n
+Software Engineering \n
+Computer Networks \n
+Artificial Intelligence \n
+Soft Computing \n
+Computer Vision \n
+Python Programming (Elective) \n
+Mobile Application Development \n
+Bigdata Analytics \n
+Machine Learning \n
+Software Defined Network \n
+Software Project Management \n
+Software Testing \n
+Advanced Java Programming \n
+Internet and Web Programming \n
+                \n
+Engineering Design \n
+Internship \n
+Project Exhibition – I \n
+Project Exhibition – II \n
+Engineering Project in Community Service \n
+               \n
+Digital Logic Design\n
+Microprocessors And Microcontrollers \n
+Vlsi Design \n
+Embedded Systems \n
+Electrical Circuits and Systems \n
+               \n
+NASSCOM Future Skills - Associative Data Analyst \n
+NASSCOM Future Skills - Security Analyst -I \n
+Advanced Data Analytics \n
+Advanced Cyber Security \n
+               \n
+ENGINEERING CHEMISTRY \n
+Environmental Science \n
+              \n
+Communication for Technical Professionals \n
+Technical Writing and Composition \n
+               \n
+ETHICS AND VALUES \n
+Swachh Bharat \n
+               \n
+Calculus and Laplace Transforms \n
+Differential And Difference Equations \n
+Discrete Mathematics And Graph Theory \n
+Applied Numerical methods \n
+Operation research \n
+Applied Linear Algebra \n
+Probability, Statistics And Reliability \n
+               \n
+ENGINEERING PHYSICS \n
+Energy and Environmental Physics \n
+Computational Physics \n
+              \n
+Programming for Computing Engineers \n
+Logic and Problem Solving for Engineers \n
+               \n
+Soft Skills for Engineers - I \n
+Soft skills II \n
+               \n
+Electrical Circuits and Systems \n
+Engineering Graphics \n
+Extra-Curricular Activity \n
+"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:text=" 4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+4 \n
+3 \n
+3 \n
+3 \n
+3 \n
+3 \n
+3 \n
+3 \n
+3 \n
+3  \n
+3 \n
+3 \n
+4 \n
+\n
+2 \n
+2 \n
+1 \n
+1 \n
+2 \n
+\n
+4 \n
+4 \n
+3 \n
+4 \n
+4 \n
+\n
+4 \n
+4 \n
+4 \n
+4 \n
+\n
+4 \n
+3 \n
+\n
+3 \n
+2 \n
+\n
+2 \n
+2 \n
+\n
+4 \n
+3 \n
+4  \n
+3\n
+3 \n
+3 \n
+4 \n
+\n
+4 \n
+3 \n
+3 \n
+\n
+4 \n
+4 \n
+\n
+1 \n
+1 \n
+\n
+4 \n
+2 \n
+2 \n
+" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

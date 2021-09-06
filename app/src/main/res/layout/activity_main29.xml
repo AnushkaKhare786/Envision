@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFD"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity29">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="417dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="TOTAL = 58 SUBJECTS"
+        android:textColor="#43A047"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="417dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="CLICK TO VIEW SUBJECTS"
+        android:textColor="#502059"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="73dp"
+        android:background="#502059"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"
+        android:text="SUBJECTS" />
+
+
+</LinearLayout>

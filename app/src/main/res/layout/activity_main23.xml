@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#37B7DD"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:text="CSE CYBER"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 1"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Problem Solving and Programming"/>
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electrical Circuits and Systems"/>
+        <CheckBox
+            android:id="@+id/checkBox39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENGINEERING CHEMISTRY "/>
+        <CheckBox
+            android:id="@+id/checkBox53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENGINEERING PHYSICS"/>
+
+        <CheckBox
+            android:id="@+id/checkBox42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technical Writing and Composition"/>
+
+        <CheckBox
+            android:id="@+id/checkBox45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swachh Bharat"/>
+        <CheckBox
+            android:id="@+id/checkBox46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculus and Laplace Transforms"/>
+        <CheckBox
+            android:id="@+id/checkBox43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra-Curricular Activity"/>
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 2"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Object Oriented Programming With C++"/>
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digital Logic Design"/>
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engineering Graphics"/>
+        <CheckBox
+            android:id="@+id/checkBox48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discrete Mathematics And Graph Theory"/>
+        <CheckBox
+            android:id="@+id/checkBox47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Differential And Difference Equations"/>
+        <CheckBox
+            android:id="@+id/checkBox40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Environmental Science"/>
+        <CheckBox
+            android:id="@+id/checkBox41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Communication for Technical Professionals"/>
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 3"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Structures and Algorithms"/>
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Architecture and Organization"/>
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engineering Design"/>
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Python Programming"/>
+        <CheckBox
+            android:id="@+id/checkBox27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application Development"/>
+
+        <CheckBox
+            android:id="@+id/checkBox49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applied Numerical methods"/>
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Exhibition-I"/>
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INTERIM SEM"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theory Of Computation And Compiler Design"/>
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design Analysis Of Algorithm"/>
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programming in Java"/>
+        <Button
+            android:id="@+id/buttonii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textViewi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textViewi2"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 4"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operating System"/>
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Database Management Systems"/>
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Project Management"/>
+        <CheckBox
+            android:id="@+id/checkBox44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ETHICS AND VALUES"/>
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Exhibition–II"/>
+        <CheckBox
+            android:id="@+id/checkBox51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applied Linear Algebra"/>
+        <CheckBox
+            android:id="@+id/checkBox52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Probability, Statistics And Reliability"/>
+        <CheckBox
+            android:id="@+id/checkBox58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soft Skills for Engineers - I"/>
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 5"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internship "/>
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artificial Intelligence"/>
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soft Computing"/>
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Engineering"/>
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Networks"/>
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internet and Web Programming" />
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 6"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engineering Project in Community Service"/>
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Microprocessors And Microcontrollers"/>
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vlsi Design"/>
+        <CheckBox
+            android:id="@+id/checkBox28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bigdata Analytics"/>
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Embedded Systems"/>
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Vision"/>
+        <CheckBox
+            android:id="@+id/checkBox29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machine Learning"/>
+        <Button
+            android:id="@+id/button66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 7"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NASSCOM Future Skills - Security Analyst -I"/>
+        <CheckBox
+            android:id="@+id/checkBox37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Advanced Data Analytics"/>
+        <CheckBox
+            android:id="@+id/checkBox57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logic and Problem Solving for Engineers"/>
+        <CheckBox
+            android:id="@+id/checkBox59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soft Skills-II"/>
+        <CheckBox
+            android:id="@+id/checkBox54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energy and Environmental Physics"/>
+        <CheckBox
+            android:id="@+id/checkBox50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operation research "/>
+        <CheckBox
+            android:id="@+id/checkBox55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Computational Physics"/>
+        <Button
+            android:id="@+id/button77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM 8"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/checkBox38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advanced Cyber Security"/>
+        <CheckBox
+            android:id="@+id/checkBox35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NASSCOM Future Skills - Associative Data Analyst"/>
+        <CheckBox
+            android:id="@+id/checkBox56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programming for Computing Engineers"/>
+        <CheckBox
+            android:id="@+id/checkBox30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Defined Network"/>
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Testing"/>
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advanced Java Programming"/>
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensors And Iot"/>
+        <Button
+            android:id="@+id/button88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"  />
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT" />
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text=" " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credits required more:"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+    </LinearLayout>
+</ScrollView>

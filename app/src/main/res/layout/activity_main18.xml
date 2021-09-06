@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity16">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SASL FACULTIES --"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:background="#E8E4E4"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:background="#04146C"
+            android:scrollbars="vertical"
+            android:text="Dr. Anita Yadav \n
+Dr. Vinod Bhatt \n
+Dr. Mary John Sajeev \n
+Dr. Rajeev Saxena \n
+Dr. Ambalika Guha \n
+Dr. Saravanan J \n
+Dr. Benevatho Jason \n
+Dr. Balaji gl \n
+Dr. Suresh Dara \n
+Dr. Mayank Sharma  \n
+Dr. Bhumika Choksi \n
+Dr. Pavan Kumar \n
+Dr. Siddhartha Maiti \n
+Dr. Pallavi Halkare \n
+Dr. Neetu Kalra \n
+Dr. Rajdeep Payal \n
+Dr. Pradeep Kayshap \n
+Dr. Navneet Verma \n
+Dr. Sayed Zeeshan \n
+Dr. Ravi Bhatt \n
+Dr. Manickam a \n
+Dr. Soumya Sankar \n
+Dr. Deepshikha Sarma \n "
+            android:textColor="@android:color/background_light"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#04146C"
+            android:scrollbars="vertical"
+            android:text="- English \n
+- English \n
+- English \n
+- English \n
+- English \n
+- Sociology \n
+- Maths \n
+- SASL \n
+- Maths \n
+- Maths \n
+- Maths \n
+- Maths \n
+- BIO \n
+- BIO \n
+- BIO \n
+- Physics \n
+- Physics \n
+- Maths \n
+- Maths \n
+- English \n
+- Maths \n
+- English \n
+- Maths \n"
+            android:textColor="@android:color/background_light"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
